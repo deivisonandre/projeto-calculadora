@@ -6,12 +6,18 @@
     padding: 0;
 }
 
-.fundo{
-    background-image: url(imagem-fundo-500.jpg);
+img {
+    width: 100%;
+    filter: blur(2px);
+    height: 100vh; 
+}
+
+.fundo {
+    overflow-y: hidden ;
     height: 100vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align:center ;    
 }
 
 .calculadora {
